@@ -1,0 +1,220 @@
+# 1)
+
+<div class="curriculum">
+    <div class="nome">
+        <h1>DANIELA PEREIRA</h1>
+    </div>
+    <div class="resumo-profissional">
+        <h2>RESUMO PROFISSIONAL</h2>
+        <p>
+            Profissional de vendas bem-sucedido com mais de 10 anos de experiência em ambientes de varejo e alimentação de grande porte. Implementou medidas de controle de custos para assegurar que o setor operacional cumprisse as metas da empresa. Maximização de resultados de desempenho com iniciativas de perdas e ganhos, merchandising, gestão de equipe, controle de perdas e gerenciamento de inventário.
+        </p>
+    </div>
+    <div class="historico-profissional">
+        <h2>HISTÓRICO PROFISSIONAL</h2>
+        <p>
+            Setembro 201tAtuaiTim - Gerente distrital, Rio de Janeiro, RJ
+            <ul>
+                <li>Dirigiu iniciativas de desenvolvimento, recrutamento/treinamento/equipe para maximizar produtividade e os rendimentos em potencial para o desenvolvimento de uma equipe de vendas.</li>
+                <li>Aumentou com êxito a retenção de funcionários com a criação de um ambiente de trabalho positivo em 18 lojas.</li>
+                <li>Administrou operações diárias para assegurar que as políticas estavam sendo cumpridas e entendidas pela equipe de vendas.</li>
+                <li>Cultivou fortes relacionamentos comerciais com clientes para gerar o desenvolvimento de negócios.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="competencias">
+        <h2>COMPETÊNCIAS</h2>
+        <ul>
+            <li>Liderança da equipe executiva</li>
+            <li>Orçamento e finanças</li>
+            <li>Geração de relatórios</li>
+            <li>Gerenciamento de projeto e inventário</li>
+            <li>Intermediário da equipe</li>
+            <li>Relacionamento e forte comunicação com cliente/fornecedor</li>
+            <li>Análise de mercado</li>
+        </ul>
+    </div>
+</div>
+
+
+#2)
+
+# 3)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regras CSS para Links</title>
+    <style>
+        /* Regra CSS para link em estado inicial sem sublinhado */
+        .link-a {
+            text-decoration: none;
+        }
+
+        /* Regra CSS para link em estado inicial com sublinhado acima do texto */
+        .link-b {
+            text-decoration: overline;
+        }
+
+        /* Regra CSS para link em estado ativo com uma linha passando ao meio do texto */
+        .link-b:active {
+            text-decoration: line-through;
+        }
+
+        /* Regra CSS para link em estado visitado com sublinhado abaixo do texto */
+        .link-b:visited {
+            text-decoration: underline;
+        }
+
+        /* Regra CSS para link em estado inicial na cor laranja */
+        .link-c {
+            color: orange;
+        }
+
+        /* Regra CSS para link em estado hover na cor verde e sublinhado */
+        .link-c:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        /* Regra CSS para link em estado inicial com bordas sólidas, cor azul, fundo preto e cor da fonte branca */
+        .link-d {
+            display: inline-block;
+            border: 1px solid blue;
+            color: white;
+            background-color: black;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        /* Regra CSS para link em estado hover com bordas pontilhadas, cor preta, fundo branco e cor da fonte preta */
+        .link-d:hover {
+            border-style: dotted;
+            border-color: black;
+            background-color: white;
+            color: black;
+        }
+
+        /* Regra CSS para link em estado inicial de cor vermelha */
+        .link-e {
+            color: red;
+        }
+
+        /* Regra CSS para link em estado visitado em itálico e negrito na cor laranja */
+        .link-e:visited {
+            font-style: italic;
+            font-weight: bold;
+            color: orange;
+        }
+
+        /* Regra CSS para link em estado hover sublinhado */
+        .link-e:hover {
+            text-decoration: underline;
+        }
+
+        /* Regra CSS para link em estado de clique com cor amarela */
+        .link-e:active {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="link-a">Link A</a><br>
+    <a href="#" class="link-b">Link B</a><br>
+    <a href="#" class="link-c">Link C</a><br>
+    <a href="#" class="link-d">Link D</a><br>
+    <a href="#" class="link-e">Link E</a><br>
+</body>
+</html>
+
+
+# 4)
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0141e;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-color: #fff;
+}
+
+
+# 5)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Regras CSS para Listas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul>
+        <li>1 Kg de Batatas</li>
+        <li>2 Ovos</li>
+        <li>1 Xícara de Leite</li>
+        <li>200 gramas de farinha de trigo</li>
+        <li>1 colher de sopa de manteiga</li>
+    </ul>
+</body>
+</html>
+
+/* Regras CSS para a lista não ordenada */
+ul {
+    list-style-image: url('seta_vermelha.png'); /* Utiliza uma seta vermelha como imagem de marcador */
+    color: red; /* Cor do texto vermelho */
+    font-family: Verdana, sans-serif; /* Fonte Verdana */
+    font-size: 12px; /* Tamanho da fonte 12px */
+}
+
+/* Regra de efeito hover */
+ul li:hover {
+    color: green; /* Cor do texto verde ao passar o mouse */
+    border-bottom-color: green; /* Cor da borda inferior verde ao passar o mouse */
+}
